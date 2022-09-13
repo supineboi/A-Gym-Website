@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="{% static '/css/MasterPage.css' %}">
+
+ {% block stylesheet %}
+ {% endblock stylesheet %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+
+
+ <title>Home Page</title>
+</head>
+<body>
+
+<header>
+   <div class="navbar">  
+     <ul>
+       <span><img src="{% static '/img/gym_logo.png' %}" alt="loading logo" width=200 height=100></span>
+       <li><a href="http://127.0.0.1:8000/">Home</a></li>
+       <li><a href="http://127.0.0.1:8000/#about">About</a></li>
+       <li><a href="http://127.0.0.1:8000/memberships">Memberships</a></li>
+       <li><a href="http://127.0.0.1:8000/#contact">Contact</a></li>
+       <li><a href="http://127.0.0.1:8000/member">Login</a></li>
+      </ul>
+   </div>
+</header>
+
+{% block content %}
+{% endblock content %}
+
+<footer>
+    <div id="end">
+        <p>&copy;2023 by Body Power Gym. Proudly created by <strong>Mohd Rahil Khan</strong></p>
+    </div>
+</footer>
+ 
+</body>
+</html>

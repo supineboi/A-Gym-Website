@@ -1,0 +1,61 @@
+{% extends 'MasterPage.html' %}
+
+{% load static %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock stylesheet %}
+
+{% block content %}
+<div id="container1">
+ <img src="{% static 'img/main_Gymlogo.png' %}" alt="" id="mainLogo">
+ <h1 id="name">Body Power Gym</h1>
+ <form name="btn" action="register">
+ <button id="regtrBtn" >Register Now</button>
+ </form>
+ </div>
+ <hr>
+ 
+ <div id="trainers">
+  <h3 id="icon">Fitness Icon trainers</h3>
+  <ul>
+   <li><img src="{% static 'img/therock.jpg' %}" alt=""></li>
+   <li><img src="{% static 'img/sahilkhan.jpg' %}" alt=""></li>
+   <li><img src="{% static 'img/GuruMann.jpg' %}" alt=""></li>
+   <li><img src="{% static 'img/Jeetselel.jpg' %}" alt=""></li>
+  </ul>
+ </div> 
+
+ <div id="about">
+    <h3 id="abtus">About Us</h3>
+    <pre>Being a 24/7 gym is one of our best amenities because we can offer our members unrestricted freedom of access 
+from sun up to sun down and everywhere in between. 
+You no longer have to worry about cramming in gym time before we close!  
+The flexibility of having access to the gym 24/7 
+makes it easier for your to plan your schedule and cut down on the excuses of not being able to go to the gym. 
+Whether you are an early morning bird and or a night owl, 
+you will find a comfortable workout environment that will fit your needs anytime of day! 
+Squeezing in a workout before closing, or missing weekend workouts are now a thing of the past.
+Our classes start as early as 6am and our movie room makes for a great late night workout! 
+If you are on your lunch break, waking up early before work, 
+or on your way home from school the gym offers multiple different services 24 hours a day that will fit into any busy schedule! 
+Take the stress away from planning your fitness routine - we are open 24/7! 
+Given that exercise is a very important factor in maintaining physical, psychological, and social wellness, 
+we must take the time to treat our bodies and our minds right! 
+We at Klub 20 want you to have easy access to a healthy lifestyle. 
+Our 24-hour operation makes Klub 20 the most reliable source for health promotion and for all of your wellness needs. 
+Our around the clock gym access, sauna, steam room, and showers are waiting for you! 
+All we ask is that you find 1 hour a day in your busy day and take some time for yourself to work hard, sweat and have fun!</pre>
+ </div>
+
+<div id="contact">
+<h3 id="cntus">Contact Us</h3>
+
+<ul id="socialGrid">
+    <li><a href="https://www.instagram.com/" target="_blank"><img src="{% static '/img/insta.png' %}" alt="Instagram" class="social"></a></li>
+    <li><a href="https://www.whatsapp.com/" target="_blank"><img src="{% static '/img/wa.png' %}" alt="Whatsapp" class="social"></a></li>
+    <li><a href="https://telegram.org/" target="_blank"><img src="{% static '/img/tele.png' %}" alt="Telegram" class="social"></a></li>
+</ul>
+</div>
+
+{% endblock content %}

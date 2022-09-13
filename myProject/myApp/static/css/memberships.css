@@ -1,0 +1,87 @@
+
+.navbar{
+ position: static;
+ width: auto;
+}
+
+caption {
+ background-color: black;
+ border: 3px solid whitesmoke;
+ color: whitesmoke;
+ padding: 10px 0px;
+ font-size: larger;
+ font-family: 'Yantramanav', sans-serif;
+
+}
+
+#table1,#body1 tr td {
+ border: 3px solid whitesmoke;
+ padding: 10px 50px;
+ margin: auto;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ background-color:cadetblue;
+ text-align: center;
+}
+
+#th1 th {
+ border: 3px solid whitesmoke;
+ padding: 10px 50px;
+ margin: auto;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ text-align: center;
+ font-family: 'Staatliches', cursive;
+ font-size: larger;
+}
+
+.bolder {
+ /* font-weight: bolder; */
+ font-family: 'Bangers', cursive;
+}
+
+#feature {
+ background-color: cadetblue;
+}
+.basic {
+ background-color: #FFFFFF;
+ font-weight: bold;
+}
+.silver {
+ background-color: #C0C0C0;
+ font-weight: bold;
+}
+.gold {
+ background-color: #FFD700;
+ font-weight: bold;
+}
+
+/* TABLE 2 */
+#table2 {
+ background-color:cadetblue;
+}
+
+#table2,#body2 tr td {
+ border: 3px solid whitesmoke;
+ padding: 10px 50px;
+ margin: auto;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ text-align: center;
+}
+
+#th2 th {
+ border: 3px solid whitesmoke;
+ padding: 10px 50px;
+ margin: auto;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ text-align: center;
+ font-family: 'Staatliches', cursive;
+ font-size: larger;
+}
+
+#cover {
+ background-color: #606060;
+ padding: 1px 0px;
+}

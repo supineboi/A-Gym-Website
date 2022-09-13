@@ -1,0 +1,42 @@
+{% extends 'MasterPage.html' %}
+{% load static %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'css/members.css' %}">
+{% endblock stylesheet %}
+
+{% block content %}
+<hr>
+<div id="cover">
+<table id="container">
+ <caption id="title_">All Members</caption>
+ <thead id="head">
+       <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Weight (kg)</th>
+            <th>Height (cm)</th>
+            <th>Address</th>
+            <th>Join Date</th>
+            <th>Plan</th>
+       </tr>
+ </thead>
+
+ <tbody id="body">
+  {% for row in tableData %}
+        <tr>
+            <td class="qw">{{row.clientName}}</td>
+            <td class="qw">{{row.clientAge}}</td>
+            <td class="qw">{{row.clientWeight}}</td>
+            <td class="qw">{{row.clientHeight}}</td>
+            <td class="qw">{{row.clientAddress}}</td>
+            <td class="qw">{{row.clientJoinDate}}</td>
+            <td class="qw">{{row.clientPlan}}</td>
+        </tr>
+  {% endfor %}
+ </tbody>
+</table>
+</div>
+<hr>
+{% endblock content %}
+ 

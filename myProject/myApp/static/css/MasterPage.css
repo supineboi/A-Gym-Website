@@ -1,0 +1,33 @@
+/* Navbar */
+
+*{
+ padding: 0px;
+ margin: 0px;
+}
+
+.navbar{
+ background-color: rgb(255, 232, 27);
+ position: fixed;
+ width: 2000px;
+}
+
+.navbar ul li {
+ list-style: none;
+ display: inline;
+ padding: 0px 40px;
+}
+
+.navbar ul li a {
+ text-decoration: none;
+ background-color: #606060;
+ border-radius: 5px;
+ padding: 1px 20px;
+ color: #ffe81b;
+ font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#end {
+ text-align: center;
+ background-color: wheat;
+}

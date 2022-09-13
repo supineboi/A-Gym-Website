@@ -1,0 +1,26 @@
+
+.navbar{
+ position: static;
+ width: auto;
+}
+
+#title_ {
+ padding: 10px 0px;
+ font-size: xx-large;
+ font-weight: bold;
+ background-color: tomato;
+}
+
+table {
+ margin: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+table,th,td {
+ border: 3px solid red;
+ border-collapse: collapse;
+ padding: 10px 20px;
+ text-align: center;
+ background-color: #fff9c0;
+}

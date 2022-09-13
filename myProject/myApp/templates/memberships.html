@@ -1,0 +1,112 @@
+{% extends 'MasterPage.html' %}
+
+{% load static %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static '/css/memberships.css' %}">
+{% endblock stylesheet %}
+
+
+{% block content %}
+ 
+<div id="cover">
+<table id="table1">
+ <caption>All Plans ( Basic, Silver, Gold ) Addon Features</caption>
+ <thead>
+       <tr id="th1">
+           <th id="feature">Features</th>
+           <th class="basic">Basic</th>
+           <th class="silver">Silver</th>
+           <th class="gold">Gold</th>
+       </tr>
+ </thead>
+ <tbody id="body1">
+       <tr>
+           <td class="bolder">Strength</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+       </tr>
+       <tr>
+           <td class="bolder">Cardio</td>
+           <td>x</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+       </tr>
+       <tr>
+           <td class="bolder">Aerobics</td>
+           <td>x</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+       </tr>
+       <tr>
+           <td class="bolder">Zumba</td>
+           <td>x</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+       </tr>
+       <tr>
+           <td class="bolder">Crossfit</td>
+           <td>x</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+       </tr>
+       <tr>
+           <td class="bolder">Abs Session</td>
+           <td>x</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+       </tr>
+       <tr>
+           <td class="bolder">Power Yoga</td>
+           <td>x</td>
+           <td>&#x2714;</td>
+           <td>&#x2714;</td>
+       </tr>
+       <tr>
+           <td class="bolder">Steam Bath</td>
+           <td>x</td>
+           <td>x</td>
+           <td>&#x2714;</td>
+       </tr>
+ </tbody>
+</table>
+
+<table id="table2">
+      <thead>
+            <tr id="th2">
+             <th>Plans</th>
+             <th>Monthly</th>
+             <th>Quarterly</th>
+             <th>Half Yearly</th>
+             <th>Yearly</th>
+            </tr>
+      </thead>
+      <tbody id="body2">
+            <tr>
+             <td class="basic">Basic</td>
+             <td>1500/-</td>
+             <td>4000/-</td>
+             <td>7000/-</td>
+             <td>10000/-</td>
+            </tr>
+            <tr>
+             <td class="silver">Silver</td>
+             <td>2500/-</td>
+             <td>6000/-</td>
+             <td>10000/-</td>
+             <td>16000/-</td>
+            </tr>
+            <tr>
+             <td class="gold">Gold</td>
+             <td>3500/-</td>
+             <td>8000/-</td>
+             <td>14000/-</td>
+             <td>20000/-</td>
+            </tr>
+      </tbody>
+</table>
+</div>
+
+{% endblock content %}
+ 

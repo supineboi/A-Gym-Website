@@ -1,0 +1,36 @@
+{% extends 'MasterPage.html' %}
+
+{% load static %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'css/register.css' %}">
+{% endblock stylesheet %}
+
+{% block content %}
+<div id="forback">
+<div id="containerBox">
+  <h3 id="name_">Register Yourself</h3>
+  
+  <form method="post" action="register">
+    {% csrf_token %}
+    <ul id="listInfo">
+        <li><input type="text" name="name" placeholder="Enter Your Name" required></li>  
+        <li><input type="number" name="age" placeholder="Enter Your Age" required></li> 
+        <li><input type="number" name="weight" placeholder="Enter Your Weight" required step=".01"></li>
+        <li><input type="number" name="height" placeholder="Enter Your Height" required step=".01"></li>
+        <li><input type="email" name="email" placeholder="Enter Your Email" required></li>
+        <!-- <li><input type="text" name="address" placeholder="Enter Your Address" required></li> -->
+        <li><label for="joinDate" class="title">Date of Joining :</label></li>
+        <li><input type="date" name="joinDate" placeholder="Enter Your Join Date" id="joinDate"  required></li>
+        <li><label for="" class="title">Choose Membership :</label></li>
+        <li><label for="basic" class="options">BASIC </label><input type="radio" value="Basic" id="basic" name="membership"  required></li>
+        <li><label for="silver" class="options">SILVER </label><input type="radio" value="Silver" id="silver" name="membership"  required></li>
+        <li><label for="gold" class="options">GOLD </label><input type="radio" value="Gold" id="gold" name="membership"  required></li>
+        <li><input type="submit" id="submitBtn"></li>
+    </ul>
+ </form>
+</div>
+</div>
+
+{% endblock content %}
+ 

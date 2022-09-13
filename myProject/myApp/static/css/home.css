@@ -1,0 +1,108 @@
+
+/* Container 1*/
+#container1 {
+ height: 800px;
+ background-color: #05080e;
+ padding-top: 100px;
+}
+
+#mainLogo {
+ height: 566px;
+ width: auto;
+ padding-left:210px;
+}
+
+#name {
+ font-size: 80px;
+ text-align: center;
+ color: #483c00;
+ margin-bottom: 10px;
+ font-family: 'Anton', sans-serif;
+}
+
+/* Trainers */
+#trainers {
+ background-color: #000000;
+}
+
+#trainers ul li {
+ list-style: none;
+ display: inline;
+}
+#trainers ul li img {
+ height: 275px;
+ width: 325px;
+ padding: 25px 3px;
+}
+
+#icon {
+ font-family: 'Bebas Neue', cursive;
+ text-align: center;
+ font-size: 50px;
+ border: 3px solid black;
+ border-radius: 50px;
+ color: #85780b;
+ background-color: #050212de;
+}
+
+#regtrBtn {
+background-color: #6e5e38;
+padding: 20px 100px;
+font-size: larger;
+font-weight: bold;
+margin-left: 510px;
+cursor: pointer;
+border: none;
+border-radius: 30px;
+}
+
+#regtrBtn:hover {
+ background-color: white;
+}
+
+#regtrBtn:active {
+ background-color: rgb(206, 206, 58);
+}
+
+#about {
+ height: 525px;
+ background-color: #000000;
+ border: 3px solid white;
+ border-radius: 50px;
+}
+
+#abtus {
+ padding: 10px 10px;
+ text-align: center;
+ color: white;
+ font-size: xx-large;
+ padding-top: 50px;
+}
+
+pre {
+ padding: 50px 10px;
+ text-align: center;
+ color: white;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+#socialGrid li {
+ display: inline;
+ background-color: #05080e;
+}
+
+#cntus {
+ font-size: x-large;
+ padding: 10px 0px;
+ text-align: center;
+ background-color: #05080e;
+ color: whitesmoke;
+}
+
+.social {
+ height: 150px;
+ width: 150px;
+ padding: 25px 40px;
+ margin: 0px 108px;
+ background-color: #05080e;
+}
